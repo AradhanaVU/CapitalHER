@@ -3,82 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CapitalHER | Landing</title>
+  <title>CapitalHER — Empowering Girls in Canada</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="page-shell">
   <header class="site-header">
-    <div class="logo">CapitalHER</div>
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <details class="nav-group">
-        <summary>About</summary>
-        <div class="nav-dropdown">
-          <a href="about-story.html">Our Story</a>
-          <a href="about-team.html">Our Team</a>
-          <a href="about-video.html">CapitalHER Video</a>
-        </div>
-      </details>
-      <a href="programs.html">Programs</a>
-      <a href="impact.html">Impact</a>
-      <details class="nav-group">
-        <summary>Get Involved</summary>
-        <div class="nav-dropdown">
-          <a href="get-involved-program.html">Apply to Program</a>
-          <a href="get-involved-team.html">Apply to Team</a>
-        </div>
-      </details>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="header-inner container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Capital<span>HER</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <details class="nav-group">
+          <summary class="nav-link">About</summary>
+          <div class="nav-dropdown">
+            <a href="about.html">About Us</a>
+            <a href="about-story.html">Our Story</a>
+            <a href="about-team.html">Our Team</a>
+            <a href="about-video.html">CapitalHER Video</a>
+          </div>
+        </details>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="impact.html" class="nav-link">Impact</a>
+        <details class="nav-group">
+          <summary class="nav-link">Get Involved</summary>
+          <div class="nav-dropdown">
+            <a href="get-involved.html">Overview</a>
+            <a href="get-involved-program.html">Apply to Program</a>
+            <a href="get-involved-team.html">Join the Team</a>
+          </div>
+        </details>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open menu">Menu</button>
+      <a href="get-involved-program.html" class="nav-action">Apply</a>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Video for Intro</p>
-        <h1>Main Video: The Video of 2026 Leadership Summit</h1>
-        <p class="intro-text">Placeholder for hero description and call-to-action.</p>
-        <div class="hero-actions">
-          <a class="btn" href="#testimonials">See Testimonials</a>
-          <a class="btn secondary" href="get-involved.html">Apply Now</a>
+    <main>
+      <section class="hero-panel">
+        <div class="hero-overlay"></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-content container">
+          <p class="eyebrow">A Canadian nonprofit</p>
+          <h1>Money is power. <span>Girls deserve both.</span></h1>
+          <p class="hero-copy">CapitalHER teaches the next generation of Canadian girls how to build wealth, launch businesses, and lead with confidence.</p>
+          <div class="hero-actions">
+            <a href="get-involved-program.html" class="btn btn-primary">Apply to the program</a>
+            <a href="programs.html" class="btn btn-secondary">Explore programs</a>
+          </div>
         </div>
-      </div>
-      <div class="hero-media">
-        <div class="video-placeholder">Video / Media Placeholder</div>
-      </div>
-    </section>
+      </section>
 
-    <section class="overview" id="overview">
-      <h2>Our Impact</h2>
-      <div class="cards-grid">
-        <article class="card"><h3>Impact Highlight</h3><p>Placeholder for impact metric or summary.</p></article>
-        <article class="card"><h3>Volunteer Streams</h3><p>High School Students and other volunteers.</p></article>
-        <article class="card"><h3>Programs Overview</h3><p>Accelerator online and in-person versions.</p></article>
-      </div>
-    </section>
+      <section class="section section-features container">
+        <div class="section-head">
+          <p class="eyebrow">What we do</p>
+          <h2>A program built around <span>three pillars.</span></h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Financial literacy</h3>
+            <p>Budgeting, investing, credit, and taxes — taught in language built for teen girls.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">💼</div>
+            <h3>Entrepreneurship</h3>
+            <p>From idea to MVP. Build a real business with mentors who’ve done it before.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h3>Community</h3>
+            <p>A national sisterhood of ambitious girls, mentors, and alumni rooting for you.</p>
+          </article>
+        </div>
+      </section>
 
-    <section class="testimonials" id="testimonials">
-      <h2>GEM Testimonials</h2>
-      <div class="testimonial-list">
-        <article class="testimonial-card"><p>Testimonial placeholder</p></article>
-        <article class="testimonial-card"><p>Testimonial placeholder</p></article>
-      </div>
-    </section>
+      <section class="section section-program container split-section">
+        <div class="split-image">
+          <img src="https://via.placeholder.com/1000x620?text=Program+image" alt="Program image placeholder">
+        </div>
+        <div class="split-content">
+          <p class="eyebrow">Our flagship program</p>
+          <h2>The CapitalHER <span>Accelerator.</span></h2>
+          <p class="section-copy">A 12-week cohort program for girls aged 13–18. Weekly workshops on money and business, paired with a mentor and a real Demo Day pitch — online or in-person.</p>
+          <ul class="program-list">
+            <li>12 weeks · weekly workshops</li>
+            <li>Online cohorts + in-person hubs in 6 cities</li>
+            <li>1:1 mentorship with a woman in business</li>
+            <li>Demo Day pitch for a $10k funding pool</li>
+          </ul>
+          <a href="programs.html" class="btn btn-primary">Program details</a>
+        </div>
+      </section>
 
-    <section class="partners">
-      <h2>Partners & Sponsors</h2>
-      <div class="partner-logos">
-        <div class="logo-block">Partner Logo</div>
-        <div class="logo-block">Partner Logo</div>
-        <div class="logo-block">Partner Logo</div>
-      </div>
-    </section>
-  </main>
+      <section class="section section-testimonials container">
+        <div class="section-head wide">
+          <h2>Voices from our community</h2>
+          <p>Stories from participants who turned ideas into income.</p>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <span class="quote-mark">“</span>
+            <blockquote>CapitalHER gave me the confidence to pitch my first business at 16. I learned how money actually works — and how I can make it work for me.</blockquote>
+            <footer>Amara K. · Accelerator ’24, Toronto</footer>
+          </article>
+          <article class="testimonial-card">
+            <span class="quote-mark">“</span>
+            <blockquote>I came in shy about numbers. I left with a full business plan, a mentor, and a community of girls who want to build something real.</blockquote>
+            <footer>Sofia R. · Accelerator ’23, Vancouver</footer>
+          </article>
+          <article class="testimonial-card">
+            <span class="quote-mark">“</span>
+            <blockquote>The mentors treated us like founders, not students. That changed everything for how I see my future.</blockquote>
+            <footer>Priya S. · Accelerator ’24, Calgary</footer>
+          </article>
+        </div>
+      </section>
 
+      <section class="section section-cta container cta-panel">
+        <div class="cta-content">
+          <h2>Help a girl build her first <span>million.</span></h2>
+          <p>Mentor, volunteer, sponsor, or apply. There’s a way for everyone to be part of this story.</p>
+          <div class="hero-actions">
+            <a href="get-involved.html" class="btn btn-gradient">Get involved</a>
+            <a href="contact.html" class="btn btn-secondary">Talk to us</a>
+          </div>
+        </div>
+      </section>
+    </main>
   <footer class="site-footer">
-    <p>Footer placeholder with links and partner callouts.</p>
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Capital<span>HER</span></span>
+      </div>
+      <p>Empowering girls across Canada through financial literacy and entrepreneurship education.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:hello@capitalher.ca">Email</a>
+      </div>
+    </div>
   </footer>
-
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

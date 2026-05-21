@@ -3,56 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CapitalHER | Apply to Team</title>
+  <title>CapitalHER — Join the Team</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="page-shell">
   <header class="site-header">
-    <div class="logo">CapitalHER</div>
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <details class="nav-group">
-        <summary>About</summary>
-        <div class="nav-dropdown">
-          <a href="about-story.html">Our Story</a>
-          <a href="about-team.html">Our Team</a>
-          <a href="about-video.html">CapitalHER Video</a>
-        </div>
-      </details>
-      <a href="programs.html">Programs</a>
-      <a href="impact.html">Impact</a>
-      <details class="nav-group">
-        <summary>Get Involved</summary>
-        <div class="nav-dropdown">
-          <a href="get-involved-program.html">Apply to Program</a>
-          <a href="get-involved-team.html">Apply to Team</a>
-        </div>
-      </details>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="header-inner container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Capital<span>HER</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <details class="nav-group">
+          <summary class="nav-link">About</summary>
+          <div class="nav-dropdown">
+            <a href="about.html">About Us</a>
+            <a href="about-story.html">Our Story</a>
+            <a href="about-team.html">Our Team</a>
+            <a href="about-video.html">CapitalHER Video</a>
+          </div>
+        </details>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="impact.html" class="nav-link">Impact</a>
+        <details class="nav-group">
+          <summary class="nav-link">Get Involved</summary>
+          <div class="nav-dropdown">
+            <a href="get-involved.html">Overview</a>
+            <a href="get-involved-program.html">Apply to Program</a>
+            <a href="get-involved-team.html">Join the Team</a>
+          </div>
+        </details>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open menu">Menu</button>
+      <a href="get-involved-program.html" class="nav-action">Apply</a>
+    </div>
   </header>
 
-  <main>
-    <section class="page-banner">
-      <h1>Apply to Team</h1>
-      <p>Placeholder for volunteer role application details.</p>
-    </section>
+    <main>
+      <section class="page-banner">
+        <div class="banner-content container">
+          <p class="eyebrow">Volunteer roles</p>
+          <h1>Join the Team</h1>
+          <p>Help deliver workshops, mentor young founders, or support program operations.</p>
+        </div>
+      </section>
 
-    <section class="content-block">
-      <h2>Volunteer Roles</h2>
-      <p>Placeholder for the two types of volunteer roles.</p>
-    </section>
+      <section class="section container cards-grid">
+        <article class="role-card">
+          <h3>Mentors</h3>
+          <p>Guide teams through pitch development, business planning, and financial strategy.</p>
+        </article>
+        <article class="role-card">
+          <h3>Program volunteers</h3>
+          <p>Help with event coordination, outreach, and student support throughout the cohort.</p>
+        </article>
+      </section>
 
-    <section class="content-block">
-      <h2>How to Join</h2>
-      <p>Placeholder for application steps and timeline.</p>
-    </section>
-  </main>
-
+      <section class="section container">
+        <div class="content-block">
+          <h2>How to join</h2>
+          <p>Complete the volunteer form or contact our team to learn more about current opportunities.</p>
+        </div>
+      </section>
+    </main>
   <footer class="site-footer">
-    <p>Footer placeholder with navigation and social links.</p>
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <span class="brand-mark"></span>
+        <span class="brand-text">Capital<span>HER</span></span>
+      </div>
+      <p>Empowering girls across Canada through financial literacy and entrepreneurship education.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:hello@capitalher.ca">Email</a>
+      </div>
+    </div>
   </footer>
-
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
